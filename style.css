@@ -1,0 +1,223 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman", Times, serif;
+    background: url(obrazky/aquapark.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+header{
+    height: 150px;
+    width: 100%;
+}
+
+ul{
+    float: right;
+    margin-right: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+
+}
+
+ul li a:hover{
+    color: black;
+    transition: ease 0.5s;
+}
+
+main{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo img{
+    float: left;
+    width: 130px;
+    height: 100%;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+
+.vrsek{
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    border: 4px solid;
+    background: linear-gradient(45deg, rgba(62, 149, 235, 0.900), rgb(10, 83, 192, 0.900));
+}
+
+.stred{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.motiv{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    border: 3px solid;
+    border-radius: 10px;
+    color: white;
+    transition: ease-in 0.3s;
+}
+
+.motiv:hover{
+    transform: scale(1.2)
+}
+
+.text{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    margin-top: 30px;
+    border: 3px solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.infobazen{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.mista{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid;
+    width: 150px;
+    background-color: rgba(10, 109, 139, 0.729);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+}
+
+.bazen{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid;
+    width: 150px;
+    background-color: rgba(10, 109, 139, 0.729);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+}
+
+.virivka{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid;
+    width: 150px;
+    background-color: rgba(10, 109, 139, 0.729);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+
+}
+
+.mista:hover{
+    transform: scale(1.2)
+    
+}
+
+.bazen:hover{
+    transform: scale(1.2)
+}
+
+.virivka:hover{
+    transform: scale(1.2)
+}
+
+footer{
+    background-color: rgba(10, 108, 138, 0.95);
+    height: 240px;
+    
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.odkazy{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid;
+    padding-bottom: 15px;
+    background-color: rgb(63, 65, 71);
+    margin-top: 25px;
+    padding: 5px;
+    
+}
+
+.kontakt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border: 3px solid;
+    padding: 5px;
+    margin-top: 25px;
+    background-color: rgb(63, 65, 71);
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1px;
+}
+
+a:hover{
+    color: lightblue;
+    transition: ease 0.5s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
